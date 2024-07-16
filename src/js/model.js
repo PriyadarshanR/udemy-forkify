@@ -3,8 +3,8 @@ import { API_URL, RES_PER_PAGE, KEY } from './config';
 // import { sendJSON } from './helper';
 import { AJAX } from './helper.js';
 
-// import Fraction from 'fractional';
-const Fraction = require('fractional').Fraction;
+import Fraction from 'fractional';
+// const Fraction = require('fractional').Fraction;
 
 export const state = {
   recipe: {},
