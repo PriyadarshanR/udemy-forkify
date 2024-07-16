@@ -2864,8 +2864,8 @@ var _config = require("./config");
 // import { getJSON } from './helper';
 // import { sendJSON } from './helper';
 var _helperJs = require("./helper.js");
-var _fractional = require("fractional");
-var _fractionalDefault = parcelHelpers.interopDefault(_fractional);
+// import Fraction from 'fractional';
+const Fraction = require("707193133c7737fe").Fraction;
 const state = {
     recipe: {},
     search: {
@@ -3001,7 +3001,7 @@ const uploadRecipe = async function(newRecipe) {
     addBookmark(state.recipe);
 };
 
-},{"./config":"k5Hzs","./helper.js":"lVRAz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","fractional":"3SU56"}],"lVRAz":[function(require,module,exports) {
+},{"./config":"k5Hzs","./helper.js":"lVRAz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","707193133c7737fe":"3SU56"}],"lVRAz":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "AJAX", ()=>AJAX);
