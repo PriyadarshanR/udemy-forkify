@@ -1,8 +1,8 @@
 //Both works
 // import icons from 'url:../img/icons.svg';
 // import icons from '../img/icons.svg';
-import 'core-js/stable';
-import 'regenerator-runtime/runtime';
+// import 'core-js/stable';
+// import 'regenerator-runtime/runtime';
 
 import recipeView from './views/recipeView.js';
 import { API_URL, MODAL_CLOSE_SEC } from './config.js';
